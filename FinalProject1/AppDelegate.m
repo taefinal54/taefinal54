@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -122,6 +123,11 @@
             abort();
         }
     }
+}
+
+- (void) applicationDidFinishLaunching:(UIApplication*)application
+{
+    
 }
 
 @end
